@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b>SELAMAT DATANG DI WEBSITE RPL POLIBANG JEPARA</b>
+    <P>Ayo kita belajar Web Developer bersama</P>
+    <h4>Nama : Arisca Pramalistyo</h4>
+    <h4>Alamat : Ds. Semampir rt 04 rw 02 Pati</h4>
+    <h5><b>Kampus Polibang Jepara :<a href="https://www.polibang.ac.id/"> Link web polibang</a> </b></h5>
+    <h5><b>Alur Belajar Pemrograman Web : <a href="https://coggle.it/diagram/YA5j5BfeOvNuaqYu/t/jalur-belajar-web-development-2022-untuk-pemula">Link web belajar pemrograman web</a> </b></h5>
+</body>
+</html>
