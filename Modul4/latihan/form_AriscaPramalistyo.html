@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 50px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="date"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 3px;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 3px;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 8px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulir Pendaftaran - Politeknik Balekambang Jepara</h2>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="ttl">Tanggal Lahir:</label>
+        <input type="date" id="ttl" name="ttl" required>
+
+        <label for="asal-sekolah">Asal Sekolah:</label>
+        <input type="text" id="asal-sekolah" name="asal-sekolah" required>
+
+        <label for="prodi">Pilih Program Studi:</label>
+        <select id="prodi" name="prodi">
+            <option value="rpl">Rekayasa Perangkat Lunak</option>
+            <option value="akp">Akuntansi Keuangan Publik</option>
+            <option value="abi">Administrasi Bisnis Internasional</option>
+        </select>
+
+        <label for="jalur">Pilih Jalur Pendaftaran:</label>
+        <select id="jalur" name="jalur">
+            <option value="reguler">Reguler</option>
+            <option value="karyawan">Karyawan</option>
+            <option value="kip-kuliah">KIP-Kuliah</option>
+        </select>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>

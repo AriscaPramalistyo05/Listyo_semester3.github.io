@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modul4</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      header,
+      nav,
+      footer,
+      aside,
+      main {
+        border: #bbafaf 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header {
+        width: 99.8%;
+        height: 120px;
+        background-color: rgb(238, 238, 238);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav {
+        width: 99.8%;
+        height: 73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(17, 14, 14);
+        color: beige;
+        justify-content: space-evenly;
+      }
+
+      main {
+        width: 59.8%;
+        height: 510px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      aside {
+        width: 39.8%;
+        height: 510px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      footer {
+        width: 99.8%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(17, 14, 14);
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <div class="kampus-logo">
+          <img
+            src="assets/img/logopoibang.png"
+            alt="Logo Kampus"
+            style="width: 80px; margin-left: 200px"
+          />
+        </div>
+
+        <h1>POLITEKNIK BALEKAMBANG JEPARA</h1>
+
+        <div class="prodi-logo">
+          <img
+            src="assets/img/logo_prodi.png"
+            alt="Logo Prodi"
+            style="width: 100px; margin-right: 200px"
+          />
+        </div>
+      </header>
+      <nav>
+        <a
+          href="assets/visi_misi.html"
+          target="mainframe"
+          style="text-decoration: none; color: rgb(255, 255, 255)"
+          >Visi & Misi</a
+        >
+        <a
+          href="assets/nama.html"
+          target="sidebar"
+          style="text-decoration: none; color: rgb(255, 255, 255)"
+          >Daftar Mahasiswa RPL</a
+        >
+        <a
+          href="https://www.polibang.ac.id"
+          target="mainframe"
+          style="text-decoration: none; color: rgb(255, 255, 255)"
+          >Polibang</a
+        >
+        <a
+          href="assets/daftar.html"
+          style="text-decoration: none; color: rgb(255, 255, 255)"
+          target="sidebar"
+          >Daftar</a
+        >
+      </nav>
+
+      <!-- content -->
+
+      <div style="display: flex">
+        <main>
+          <iframe
+            name="mainframe"
+            width="100%"
+            height="100%"
+            style="border: none"
+          ></iframe>
+        </main>
+        <aside>
+          <iframe
+            name="sidebar"
+            width="100%"
+            height="100%"
+            style="border: none"
+          ></iframe>
+        </aside>
+      </div>
+      <!-- akhir content -->
+      <footer>
+        <img src="assets/img/logopolibang.png" width="40px" />
+        <p>
+          | @2023 | Arisca Pramalistyo | Politeknik Balekambang Jepara |
+          Balekambang, RT.02/RW.07, Gemiring Lor, Kec. Nalumsari, Kabupaten
+          Jepara, Jawa Tengah 59465
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
