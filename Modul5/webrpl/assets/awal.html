@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("./img/bg.jpg") center / cover no-repeat;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-style: bolder;
+      background-blend-mode: darken;
+      background-color: rgba(5, 2, 2, 0.5); /* Warna latar belakang dengan opacity */
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1,
+    h3 {
+      margin-top: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      overflow-x: auto; /* Membuat galeri bisa discroll secara horizontal */
+    }
+
+    .card {
+      flex: 0 0 auto;
+      margin-right: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .card img {
+    
+      height: 80px;
+      border-radius: 5px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h1>Welcome</h1>
+        <h3>
+          Mari belajar membuat layout website. <a href="https://www.w3schools.com/html/" style="color: #ee0000;">Pelajari HTML</a> dan
+          <a href="https://www.w3schools.com/css/">CSS</a>.
+        </h3>
+        <h3>My Gallery</h3>
+      </div>
+
+      <div class="gallery">
+        <div class="card">
+          <img src="./img/web.png" alt="Foto 1" />
+          <p>Web Devloper</p>
+        </div>
+        <div class="card">
+          <img src="./img/UX.png" alt="Foto 2" />
+          <p>UI/UX Design</p>
+        </div>
+        <div class="card">
+          <img src="./img/game.png" alt="Foto 2" />
+          <p>Game Devloper</p>
+        </div>
+        <div class="card">
+          <img src="./img/im.jpg" alt="Foto 2" />
+          <p>Portofolio Website</p>
+        </div>
+        <div class="card">
+          <img src="./img/gm.png" alt="Foto 2" />
+          <p>Game Design</p>
+        </div>
+       
+      </div>
+    </div>
+  </body>
+</html>
