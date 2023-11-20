@@ -24,6 +24,50 @@
     <link rel="stylesheet" href="../assets/vendor/animate/animate.css" />
 
     <link rel="stylesheet" href="../assets/css/theme.css" />
+    <style>
+              body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-card {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-card:hover {
+    transform: scale(1.1);
+}
+
+img {
+  max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block; /* Membuat gambar menjadi blok untuk menengahkannya */
+    margin: 0 auto; /* Menengahkan gambar dengan margin otomatis */
+
+
+}
+
+
+    </style>
   </head>
   <body>
     <!-- Back to top button -->
@@ -276,26 +320,46 @@
             <h1 class="text-center mb-3">
               Rekomendasi Makanan bagi Penderita Gagal Ginjal
             </h1>
-            <div class="text-lg">
-              <p>1. Telur Rebus</p>
-              <p>
-                Telur merupakan sumber protein berkualitas tinggi dengan kadar
-                fosfor yang rendah. Konsumsi telur rebus atau telur dadar
-                sebagai alternatif protein.
-              </p>
-              <p>2. Apel dan Pir</p>
-              <p>
-                Buah-buahan ini rendah kalium dan memberikan serat yang baik.
-                Makan sebagai camilan atau tambahkan ke dalam smoothie.
-              </p>
-              <p>3. Kentang Rebus (Tanpa Kulit)</p>
-              <p>
-                Kentang rebus tanpa kulit adalah sumber karbohidrat yang baik.
-                Hindari kulitnya untuk mengurangi kadar kalium.
-              </p>
-            </div>
-          </div>
-
+            <section id="rekomendasi">
+              <h2>Makanan Direkomendasikan</h2>
+              <div class="food-card">
+                  <img src="../assets/img/apel.jpg" alt="Apel">
+                  <p>Apel</p>
+              </div>
+              <div class="food-card">
+                  <img src="../assets/img/brokoli.jpg" alt="Brokoli">
+                  <p>Brokoli</p>
+              </div>
+              <div class="food-card">
+                  <img src="../assets/img/wortel.jpg" alt="Wortel">
+                  <p>Wortel</p>
+              </div>
+              <div class="food-card">
+                  <img src="../assets/img/fish.jpg" alt="Ikan">
+                  <p>Ikan</p>
+              </div>
+              <div class="food-card">
+                  <img src="../assets/img/berry.jpg" alt="Blueberry">
+                  <p>Blueberry</p>
+              </div>
+          </section>
+      
+          <section id="hindari">
+              <h2>Makanan yang Sebaiknya Dihindari</h2>
+              <div class="food-card">
+                  <img src="../assets/img/salt.jpg" alt="Garam">
+                  <p>Garam Berlebihan</p>
+              </div>
+              <div class="food-card">
+                  <img src="../assets/img/cola.jpg" alt="Minuman Bersoda">
+                  <p>Minuman Bersoda</p>
+              </div>
+              <div class="food-card">
+                  <img src="../assets/img/bayam.jpg" alt="Bayam">
+                  <p>Bayam</p>
+              </div>
+          </section>
+      
           <div class="page-section">
             <div class="container">
               <h1 class="text-center mb-5 wow fadeInUp">Dokter</h1>
