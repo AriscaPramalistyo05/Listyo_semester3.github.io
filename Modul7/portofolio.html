@@ -6,6 +6,11 @@
     <title>Portofolio Website</title>
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
 
+    <script
+      src="https://kit.fontawesome.com/0b11e1e341.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- style css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -13,15 +18,7 @@
     <!-- Awal navbar -->
     <nav class="navbar navbar-expand-lg bg-info shadow-sm sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
-            alt="Bootstrap"
-            width="30"
-            height="24"
-          />
-          Listyo
-        </a>
+        <a class="navbar-brand fw-bolder" href="#"> Listyo </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -101,7 +98,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#e2edff"
+          fill="#9fccff"
           fill-opacity="1"
           d="M0,32L26.7,53.3C53.3,75,107,117,160,122.7C213.3,128,267,96,320,101.3C373.3,107,427,149,480,170.7C533.3,192,587,192,640,165.3C693.3,139,747,85,800,64C853.3,43,907,53,960,85.3C1013.3,117,1067,171,1120,202.7C1173.3,235,1227,245,1280,224C1333.3,203,1387,149,1413,122.7L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
         ></path>
@@ -118,11 +115,15 @@
           </div>
         </div>
         <!--  -->
-        <div class="row">
+        <div class="row justify-content-center">
           <!-- card 1 -->
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/it.jpg" class="card-img-top" alt="..." />
+              <a
+                href="https://www.figma.com/file/DQMZaJxtw355jSA44OyH5s/Untitled?type=design&node-id=25%3A77&mode=design&t=rYio9iz91oBetyKh-1"
+                ><img src="img/ui_olshop.png" class="card-img-top" alt="..."
+              /></a>
+
               <div class="card-body">
                 <p class="card-text text-center">UI Design Aplikasi Olshop</p>
               </div>
@@ -131,7 +132,11 @@
           <!-- card 2 -->
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/it.jpg" class="card-img-top" alt="..." />
+              <a
+                href="https://www.figma.com/file/65N1C6SZhj84yb7eEnpR18/UI-CALISTUNG?type=design&node-id=62%3A2&mode=design&t=1kFEzrFKRcTa30io-1"
+                ><img src="img/calistung.png" class="card-img-top" alt="..."
+              /></a>
+
               <div class="card-body">
                 <p class="card-text text-center">
                   UI Design Aplikasi Calistung
@@ -139,10 +144,15 @@
               </div>
             </div>
           </div>
+
           <!-- card 3 -->
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/it.jpg" class="card-img-top" alt="..." />
+              <a
+                href="https://ariscapramalistyo05.github.io/Tugas_Semester2.github.io/Tugas_LatihanPraktek_Semester2/Portofolio-web/index.html"
+                ><img src="img/porto.png" class="card-img-top" alt="..."
+              /></a>
+
               <div class="card-body">
                 <p class="card-text text-center">Website Portofolio</p>
               </div>
@@ -151,16 +161,24 @@
           <!-- card 4 -->
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/it.jpg" class="card-img-top" alt="..." />
+              <a
+                href="https://ariscapramalistyo05.github.io/Tugas_Semester2.github.io/Tugas_LatihanPraktek_Semester2/Tugas6_Game_memory_card/memory.html"
+                ><img src="img/memoryGm.png" class="card-img-top" alt="..."
+              /></a>
+
               <div class="card-body">
-                <p class="card-text text-center">Game Hummer Punch Javasript</p>
+                <p class="card-text text-center">Memory Game Javascipt</p>
               </div>
             </div>
           </div>
           <!-- card 5 -->
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/it.jpg" class="card-img-top" alt="..." />
+              <a
+                href="https://ariscapramalistyo05.github.io/Listyo_Semester3.github.io/2022010023-Arisca_Pramalistyo/"
+                ><img src="img/Web_kes.png" class="card-img-top" alt="..."
+              /></a>
+
               <div class="card-body">
                 <p class="card-text text-center">Website Kesehatan</p>
               </div>
@@ -188,7 +206,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <form name="tyo">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input
@@ -196,6 +214,7 @@
                   class="form-control"
                   id="name"
                   aria-describedby="name"
+                  name="nama"
                 />
               </div>
               <div class="mb-3">
@@ -205,11 +224,17 @@
                   class="form-control"
                   id="email"
                   aria-describedby="email"
+                  name="email"
                 />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="3"
+                  name="pesan"
+                ></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
@@ -227,7 +252,7 @@
     <!-- Akhir contact -->
 
     <!-- footer -->
-    <footer class="bg-info text-dark text-center pb-4">
+    <footer class="bg-info text-dark text-center pb-5">
       <p>
         Created by
         <a
@@ -240,5 +265,17 @@
     <!-- akhir footer -->
 
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbza10e1a4oQrl1Go6ZOv972ffrnyYXy-pKenxMUAvlRnbFDo3bJ-xgW7CDeZphh2FU/exec";
+      const form = document.forms["tyo-contact-form"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
