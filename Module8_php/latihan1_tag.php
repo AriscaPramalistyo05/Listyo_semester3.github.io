@@ -8,13 +8,9 @@ echo "Saya belajar PHP di Polibang!<br>";
 echo "===============================<br><br>";
 ?>
 <!-- Tag pendek -->
-<?= "++++++++++++++++++++++++++++++++<br>"; ?>
+<?= "++++++++++++++++++++++++++++++++", 
+"++++++++++++++++++++++++++++++++";?>
 <?= "Contoh PHP Tag Pendek! <br>"; ?>
 <?= "Perkenalkan namaku Tyo<br>"; ?>
+<?= "Perkenalkan namaku Tyo<br>"; ?>
 <?= "++++++++++++++++++++++++++++++++<br><br>"; ?>
-
-
-
-
-
-

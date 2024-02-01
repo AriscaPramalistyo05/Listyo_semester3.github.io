@@ -6,10 +6,6 @@ if (empty($_SESSION['keranjang']) or !isset($_SESSION['keranjang'])) {
     echo "<script> alert('Keranjang anda kosong silahkan belanja'); </script>";
     echo "<script> location='produk.php'; </script>";
 }
-// Query SQL untuk mengambil data dari tabel keranjang
-$sql = "SELECT * FROM keranjang";
-$result = mysqli_query($conn, $sql);
-
 
 ?>
 <!DOCTYPE html>
@@ -77,8 +73,8 @@ $result = mysqli_query($conn, $sql);
         </div>
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
-                <a href="" class="text-decoration-none">
-                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
+                <a href="" class="text-decoration-none d-block d-lg-none">
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">A</span>eroShop</h1>
                 </a>
             </div>
 

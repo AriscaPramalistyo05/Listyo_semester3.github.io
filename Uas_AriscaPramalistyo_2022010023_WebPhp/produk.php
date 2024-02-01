@@ -3,7 +3,6 @@ require "config.php";
 
 $queryKategori = mysqli_query($conn, "SELECT * FROM kategori");
 
-
 if (isset($_GET['keyword'])) {
     $queryProduk = mysqli_query($conn, "SELECT * FROM produk WHERE nama LIKE '%$_GET[keyword]%'");
 } else if (isset($_GET['kategori'])) {

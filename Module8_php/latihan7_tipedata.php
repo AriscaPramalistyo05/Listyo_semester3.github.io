@@ -55,5 +55,13 @@ var_dump($prodi);
 echo "<br><br>";
 
 echo "============================ Praktik ============================<br>";
+$nama = "Arisca Pramalistyo";
+$nim = 20220100023;
+$tinggi = 1.82;
+$mahasiswa = true;
+
+var_dump($nama,$nim,$tinggi,$mahasiswa);
+echo("<br>".$nama." ".$nim." ".$tinggi." ".$mahasiswa);
+
 
 ?>

@@ -1,7 +1,7 @@
 <?php
+require "./admins/session.php";
 require "header.php";
 require "config.php";
-require "./admins/session.php";
 
 // Check if user is not logged in, then redirect to login page
 if ($_SESSION['login'] == false) {
